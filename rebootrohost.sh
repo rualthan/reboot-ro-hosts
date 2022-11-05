@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script will find check if a remote host has filesystem in RO mode and
+# This script will find and check if a remote host has filesystem in RO mode and
 # reboot it if it has one. It requires sshpass for automating ssh login
 # sshpass is available here http://sourceforge.net/projects/sshpass/
 # How it works in detail:
