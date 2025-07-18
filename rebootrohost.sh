@@ -22,7 +22,7 @@ fi
 which sshpass > /dev/null 2>&1
 if [[  $? -ne 0 ]]; then
         echo "sshpass missing"
-        echo "This script required package sshpass"
+        echo "This script requires package sshpass"
         exit
 fi
 
